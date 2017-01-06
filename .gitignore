@@ -1,0 +1,9 @@
+*~
+
+/node_modules/
+
+/dist/
+/dist_test/
+
+/vendor/bundle/
+/.bundle/

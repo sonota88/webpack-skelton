@@ -1,0 +1,9 @@
+module.exports = {
+  entry: "./src/entry_test.js",
+  target: "node",
+  output: {
+    path: "dist_test",
+    filename: "bundle.js",
+    libraryTarget: "commonjs2"
+  }
+};

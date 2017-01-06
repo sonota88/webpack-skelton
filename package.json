@@ -1,0 +1,22 @@
+{
+  "name": "webpack-skelton",
+  "version": "0.0.1",
+  "description": "Webpack skelton",
+  "main": "index.js",
+  "scripts": {
+    "build_test": "webpack --config webpack.config.js.test",
+    "test": "scripts/test.sh",
+    "build": "scripts/build.sh",
+    "watch": "bundle exec observr watch.rb"
+  },
+  "author": "sonota88",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "mocha": "^3.2.0",
+    "raw-loader": "^0.5.1",
+    "webpack": "^1.14.0"
+  },
+  "dependencies": {
+    "jquery": "^3.1.1"
+  }
+}

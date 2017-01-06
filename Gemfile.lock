@@ -1,0 +1,13 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    observr (1.0.5)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  observr
+
+BUNDLED WITH
+   1.13.6
