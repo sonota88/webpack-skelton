@@ -7,11 +7,12 @@
     "build_test": "webpack --config webpack.config.js.test",
     "test": "scripts/test.sh",
     "build": "scripts/build.sh",
-    "watch": "bundle exec observr watch.rb"
+    "watch": "node scripts/watch.js"
   },
   "author": "sonota88",
   "license": "CC0-1.0",
   "devDependencies": {
+    "chokidar": "^1.6.1",
     "mocha": "^3.2.0",
     "raw-loader": "^0.5.1",
     "webpack": "^1.14.0"
